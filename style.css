@@ -1,0 +1,409 @@
+@font-face{
+    font-family: vazir;
+    src: url(Vazir.ttf);
+}
+body{
+    direction: rtl;
+    font-family: vazir;
+}
+header{
+    background-color: rgb(101, 220, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>img{
+    width: 130px;
+}
+nav>a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(60, 144, 163);
+    font-size: 17px;
+}
+#parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.child1{
+    width: 410px;
+    padding: 100px;
+}
+button{
+    margin-top: 10px;
+    padding: 8px;
+    width: 120px;
+    font-family: vazir;
+    border: yellow;
+    background-color: rgb(255, 198, 76);
+}
+#img2{
+    width: 500px;
+}
+#img3{
+    width: 300px;
+}
+#img4{
+    width: 550px;
+}
+#img5{
+    width: 270px;
+}
+#child3{
+    margin-top: 50px;
+}
+#parent2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#parent3{
+    background-color: rgb(173, 250, 250);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+.child4{
+    text-align: center;
+}
+p{
+    color: rgb(29, 88, 88);
+}
+i{
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: rgb(29, 88, 88);
+}
+h2{
+    text-align: center;
+}
+#parent4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.child5{
+    width: 25%;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 5px;
+}
+.img6{
+    margin-right: 40px;
+}
+h3{
+    margin-right: 50px;
+}
+#main{
+    background-color: rgb(4, 18, 70);
+    color: aliceblue;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border-bottom-right-radius:8px ;
+    border-bottom-left-radius: 8px;
+}
+#hh2{
+    background-color:rgb(4, 18, 70) ;
+    color: aliceblue;
+    margin-right: 30px;
+}
+#inputparent1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:rgb(15, 42, 102);
+    height: 300px;
+    margin-right: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.inputs{
+    width: 30%;
+}
+#parent5{
+    background-color:rgb(4, 18, 70) ;
+    width: 100%;
+    border-top-right-radius:8px ;
+    border-top-left-radius:8px ;
+}
+select{
+    width: 100%;
+    font-family: vazir;
+    border: 2px solid white ;
+    border-radius: 6px;
+}
+input{
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 100%;
+}
+#inputparent2{
+    background-color: rgb(15, 42, 102);
+    width: 100%;
+    height: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#form{
+    padding:50px;
+    width: 50%;
+}
+.inputs2{
+    margin-right: 20px;
+}
+#file{
+    background-color: aliceblue;
+    width: auto;
+}
+#txt{
+    width: 95%;
+    margin-right: 0;
+    height: 50px;
+    border-radius:8px ;
+}
+#btn{
+    font-family: vazir;
+    width: 95%;
+    border: none;
+    border-radius: 6px;
+    margin-right:20px ;
+}
+#map{
+    width: 50%;
+    padding: 50px;
+    margin-left: 50px;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+    border-radius:8px ;
+}
+#gender1{
+    width: auto;
+}
+#gender2{
+    width: auto;
+}
+#parent6{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    background-color:aliceblue;
+}
+#child6{
+    width: 30%;
+    margin-top: 50px;
+}
+#child7{
+    margin-top: 100px;
+    width: 40%;
+}
+#hhh3{
+    margin-right: -420px;
+    color: rgb(58, 150, 119);
+}
+.i{
+    width: 30%;
+    height: 20%;
+}
+#minimg{
+    width: 90%;
+    height: 50%;
+}
+#main2{
+    width: 100%;
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+    color: rgb(58, 150, 119);
+}
+#parent7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.child8{
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.child8 p{
+    color: black;
+}
+.child8 h3{
+    margin: 0px;
+    color: rgb(58, 150, 119);
+}
+.child8 i{
+    margin-right:-70px;
+    color: rgb(248, 186, 29);
+}
+.child9{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    margin: 5px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+}
+.imagechild{
+    width: 80%;
+    height: 80%;
+    background-color: yellow;
+    border-radius: 5px;
+}
+#parent8{
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(14, 14, 111);
+    color: aliceblue;
+}
+#image1{
+    width: 300px;
+    height: 150px;
+}
+footer p{
+    color: aliceblue;
+}
+.hh3{
+    margin-right: -10px;
+}
+.image2{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.parent9{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:500px) {
+    header{
+        justify-content: none;
+        flex-direction:none ;
+        height: 40px;
+    }
+    nav>a{
+        padding: 7px;
+    }
+    header>img{
+        display: none;
+    }
+    #parent{
+        flex-wrap: wrap;
+        direction: rtl;
+    }
+    .child1{
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+    }
+    #parent2{
+        width: 90%;
+    }
+    #img3{
+        width: 100px;
+    }
+    #img4{
+        width: 200px;
+    }
+    #img5{
+        width: 100px;
+    }
+    i{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    #parent4{
+        flex-wrap: wrap;
+    }
+    .child5{
+        width: 100%;
+        text-align: center;
+    }
+    #parent5{
+        height: 1500px;
+    }
+    #main{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #form{
+        width: 100%;
+    }
+    #inputparent1{
+        margin: 0;
+        width: 100%;
+    }
+    #inputparent2{
+        margin: 0;
+    }
+    #map{
+        width: 90%;
+    }
+    iframe{
+        width: 100%;
+    }
+    #parent6{
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    #child7{
+        width: 90%;
+    }
+    #hhh3{
+        margin-left: -70px;
+    }
+    #child6{
+        width: 100%;
+    }
+    #main2{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .child8{
+        padding: 0;
+        width: 100%;
+        margin-right: 80px;
+    }
+    #image1{
+        width: 200px;
+        height: 100px;
+    }
+    footer{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .child10{
+        width: 100%;
+        margin-right: 150px;
+    }
+} 
