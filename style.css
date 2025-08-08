@@ -304,7 +304,7 @@ footer p{
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
     header{
         justify-content: none;
         flex-direction:none ;
@@ -406,4 +406,5 @@ footer p{
         width: 100%;
         margin-right: 150px;
     }
+
 } 
